@@ -7,7 +7,7 @@ const ProductList = ({
 } : {
     data: any; 
     title?: string; 
-    limit?:number
+    limit?: number
 }) => {
     const limitedData = limit ? data.slice(0, limit) : data;
 

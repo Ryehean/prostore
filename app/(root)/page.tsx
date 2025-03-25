@@ -2,7 +2,6 @@ import sampleData from "@/db/sample-data";
 import ProductList from "@/components/shared/product/product-list";
 
 const Homepage =() => {
-  console.log(sampleData);
   
   return ( 
     <ProductList 

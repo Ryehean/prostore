@@ -1,11 +1,11 @@
-"use client"
+'use client';
 
-import * as React from "react"
-import { useEffect, useState } from "react"
-import { SunIcon, MoonIcon, SunMoon } from "lucide-react"
-import { useTheme } from "next-themes"
+import * as React from "react";
+import { useEffect, useState } from "react";
+import { SunIcon, MoonIcon, SunMoon } from "lucide-react";
+import { useTheme } from "next-themes";
 
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -13,7 +13,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuCheckboxItem,
-} from "@/components/ui/dropdown-menu"
+} from "@/components/ui/dropdown-menu";
 
 
 export function ModeToggle() {
