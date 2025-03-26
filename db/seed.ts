@@ -1,6 +1,5 @@
 import { PrismaClient } from '@prisma/client';
 import sampleData from './sample-data';
-import { log } from 'node:console';
 
 async function main() {
     const prisma = new PrismaClient();
