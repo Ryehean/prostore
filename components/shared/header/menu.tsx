@@ -33,7 +33,7 @@ const Menu = () => {
                             <ShoppingCart /> Cart                          
                         </Link>
                     </Button>
-                    <Button asChild>
+                    <Button asChild variant='outline'>
                         <Link href='/sign-in'>
                         <UserIcon />Sign in
                         </Link>
